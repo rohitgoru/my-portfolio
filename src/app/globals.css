@@ -7,6 +7,7 @@
   --font-roboto: "Roboto", sans-serif;
 
   /* COLORS */
+  --color-primary: #55e5a4;
   --color-secondary: #adb1b5;
   --color-superSilver: #f0f0f0;
   --color-wallStreet: #656c73;
@@ -32,4 +33,38 @@
 
 body {
   font-family: "Poppins", sans-serif !important;
+  background-color: #000319;
+}
+
+.main-container {
+  @apply max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8;
+}
+.nav-link {
+  @apply text-base  leading-[130%];
+}
+.link-style {
+  @apply text-sm sm:text-base text-white font-medium cursor-pointer hover:text-primary transition-all duration-150 ease-in-out;
+}
+.heading {
+  @apply text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-[120.69%];
+}
+.sub-heading {
+  @apply text-[26px] sm:text-3xl lg:text-4xl xl:text-[48px] font-semibold text-white font-roboto;
+}
+.paragraph {
+  @apply text-xl sm:text-2xl lg:text-3xl text-white;
+}
+
+.header-gradient {
+  background: linear-gradient(103deg, #04071d 16.66%, #0c0e23 81.61%);
+}
+
+.primary-btn-bg {
+  border-radius: 14px;
+  border: 1px solid rgba(105, 113, 162, 0.4);
+  background: linear-gradient(90deg, #161a31 3.4%, #06091f 100%);
+}
+
+.project-card-bg {
+  background: linear-gradient(103deg, #04071d 16.66%, #0c0e23 81.61%);
 }
