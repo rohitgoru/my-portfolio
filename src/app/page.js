@@ -2,6 +2,7 @@ import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import Hero from "@/components/homepage/Hero";
 import OurProject from "@/components/homepage/OurProject";
+import SatisfiedClients from "@/components/homepage/SatisfiedClients";
 import TeckStack from "@/components/homepage/TeckStack";
 
 export default function Home() {
@@ -300,6 +301,7 @@ export default function Home() {
       </div>
       <TeckStack />
       <OurProject />
+      <SatisfiedClients />
       <Footer />
     </div>
   );

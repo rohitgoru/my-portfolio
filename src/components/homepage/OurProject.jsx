@@ -107,7 +107,7 @@ const projects = [
 
 export default function OurProject() {
   return (
-    <section className=" py-16 lg:py-20 text-white">
+    <section id="Projects" className=" pb-16 sm:py-16 lg:py-20 text-white">
       <div className="">
         {/* Heading */}
         <h2 className="mb-12 text-center sub-heading">
