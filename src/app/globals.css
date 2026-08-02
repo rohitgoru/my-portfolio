@@ -36,6 +36,9 @@ body {
   background-color: #000319;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .main-container {
   @apply max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8;
 }
@@ -43,7 +46,7 @@ body {
   @apply text-base  leading-[130%];
 }
 .link-style {
-  @apply text-sm sm:text-base text-white font-medium cursor-pointer hover:text-primary transition-all duration-150 ease-in-out;
+  @apply text-sm sm:text-base text-white font-medium cursor-pointer hover:text-[#CBACF9] transition-all duration-150 ease-in-out;
 }
 .heading {
   @apply text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-[120.69%];
@@ -66,5 +69,10 @@ body {
 }
 
 .project-card-bg {
+  background: linear-gradient(103deg, #04071d 16.66%, #0c0e23 81.61%);
+}
+
+.testimonial-card-bg {
+  border: 1px solid rgba(54, 55, 73, 0.43);
   background: linear-gradient(103deg, #04071d 16.66%, #0c0e23 81.61%);
 }
