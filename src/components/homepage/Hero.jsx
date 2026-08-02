@@ -13,11 +13,17 @@ const Hero = () => {
         <span className="!text-[#CBACF9] pl-2">User Experiences</span>
       </h1>
       <p className="text-base md:text-lg lg:text-2xl text-[#E4ECFF] leading-[120%] py-6">
-        Hi! I’m John Doe, a Next.js Developer based in Russia
+        Hi! I’m rohit choudhary, a Next.js Developer
       </p>
-      <PrimaryButton className={"sm:max-w-[180px] w-full"}>
-        See my work
-      </PrimaryButton>
+      <a
+        className="max-w-full"
+        href="/images/cv/Rohit_Choudhary_ATS_Frontend_Resume.docx"
+        download
+      >
+        <PrimaryButton className={"sm:max-w-[180px] w-full"}>
+          Download CV
+        </PrimaryButton>
+      </a>
     </section>
   );
 };

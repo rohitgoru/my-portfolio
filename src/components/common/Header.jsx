@@ -14,7 +14,10 @@ const Header = () => {
   };
   return (
     <>
-      <header className="max-w-[95%] sm:max-w-[450px] mx-auto px-4 py-3 flex justify-center items-center  header-gradient border-[#121631] border rounded-xl mt-[30px] sm:mt-[50px]">
+      <header
+        id="Home"
+        className="max-w-[95%] sm:max-w-[450px] mx-auto px-4 py-3 flex justify-center items-center  header-gradient border-[#121631] border rounded-xl mt-[30px] sm:mt-[50px]"
+      >
         <ul className="flex items-center gap-5 sm:gap-10">
           {navItems.map((item, index) => (
             <NavLink item={item} key={index} />
